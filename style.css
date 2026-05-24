@@ -133,7 +133,26 @@ main {
     font-size: 1.1em;
     color: #2c3e2b;
 }
+.quotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
+/* Карточка цитаты */
+.quote-card {
+    flex: 1;
+    min-width: 250px;
+    background: #f9f3e3;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Подпись источника цитаты */
+.quote-source {
+    margin-top: 10px;
+    color: #c9a03d;
+}
 .quote-author {
     margin-top: 10px;
     font-weight: bold;
